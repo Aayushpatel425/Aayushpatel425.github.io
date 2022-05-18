@@ -257,7 +257,7 @@
 
 .infoContainer{
   background-color: white;
-  height: 46vh;
+  height: 35vh;
   width: 80vw;
   margin: 144px auto;
   display: flex;
@@ -268,9 +268,10 @@
 }
 
 .devPic img{
-  height: 70vh;
+  height: 45vh;
   position: relative; 
-  top: -170px;
+  top: -100px;
+  padding-right: 4rem;
 }
 
 .logoPic img{
