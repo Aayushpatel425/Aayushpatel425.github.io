@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Future Market Predictions and Influencing Factors</title>
+    <link rel="stylesheet" href="slide4.css">
+</head>
+<body>
+    <div id="content">
+        <div id="chart"></div>
+        <div id="slide-texts">
+            <div id="slide-4-text" class="slide-text">
+                <h2>Future Market Predictions and Influencing Factors</h2>
+                <p>Our story concludes with a look into the future. The projection chart shows predicted real estate prices based on current trends and economic forecasts. You can interact with the chart by adjusting the sliders for interest rates and economic growth to see how these factors might influence future prices.</p>
+                <p>The narrative discusses how the ongoing recovery and current market dynamics will shape future prices. Annotations highlight the impact of potential changes in interest rates and economic growth, providing insights into the most likely scenarios.</p>
+                <p><strong>Source:</strong> <a href="https://fred.stlouisfed.org/series/MSPUS">FRED: MSPUS</a></p>
+            </div>
+        </div>
+        <div id="controls">
+            <label for="interestRate">Interest Rate (%):</label>
+            <input type="range" id="interestRate" min="0" max="20" value="5">
+            <span id="interestRateValue">5%</span>
+            <br/>
+            <label for="economicGrowth">Economic Growth (%):</label>
+            <input type="range" id="economicGrowth" min="0" max="10" value="3">
+            <span id="economicGrowthValue">3%</span>
+        </div>
+        <div id="navigation">
+            <button id="prev">Previous</button>
+            <button id="next">Next</button>
+        </div>
+        <div id="tooltip" class="tooltip" style="display: none;"></div>
+    </div>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="slide4.js"></script>
+</body>
+</html>

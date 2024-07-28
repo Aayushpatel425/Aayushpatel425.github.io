@@ -1,0 +1,93 @@
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f9f9fb;
+}
+
+#content {
+    width: 85%;
+    max-width: 1200px;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+}
+
+#chart {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.tooltip {
+    position: absolute;
+    font-size: 12px;
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 5px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+    pointer-events: none; 
+}
+
+.selected {
+    stroke: black;
+    stroke-width: 2px;
+}
+
+svg {
+    overflow: visible;
+}
+
+.axis path,
+.axis line {
+    stroke: #bbb;
+}
+
+.axis text {
+    font-size: 12px;
+    fill: #555;
+}
+
+#navigation {
+    margin-top: 20px;
+    background: #f4f4f9;
+    border-radius: 5px;
+    padding: 10px 20px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+}
+
+button {
+    padding: 10px;
+    margin: 0 10px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.details-panel {
+    font-size: 14px;
+    line-height: 1.5;
+    background-color: #f9f9fb;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    width: 200px;
+}

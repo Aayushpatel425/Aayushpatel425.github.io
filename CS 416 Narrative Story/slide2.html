@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Regional Impact and Recovery Differences</title>
+    <link rel="stylesheet" href="slide2.css">
+</head>
+<body>
+    <div id="content">
+        <div id="chart"></div>
+        <div id="slide-texts">
+            <div id="slide-2-text" class="slide-text">
+                <h2>Regional Impact and Recovery Differences</h2>
+                <p>After the 2008 crisis, the recovery was uneven across different regions. Some areas bounced back quickly, while others lagged behind. The bar chart shows average real estate prices for various regions before and after the crisis.</p>
+                <p>Click on any bar to see more detailed information about a specific region. The data reveals how local economic conditions, demand, and other factors influenced the pace of recovery. For instance, the West Coast saw faster recovery due to booming job markets, while some Midwestern regions struggled longer.</p>
+                <p>MSPS: South, MSPMW: Midwest, MSPW: West, MSPNE: North East</p>
+                <p><strong>Sources:</strong> <a href="https://fred.stlouisfed.org/series/MSPS">FRED: MSPS</a>, <a href="https://fred.stlouisfed.org/series/mspmw">FRED: MSPMW</a>, <a href="https://fred.stlouisfed.org/series/mspw">FRED: MSPW</a>, <a href="https://fred.stlouisfed.org/series/mspne">FRED: MSPNE</a></p>
+            </div>
+        </div>
+        <div id="navigation">
+            <button id="prev">Previous</button>
+            <button id="next">Next</button>
+        </div>
+        <div id="tooltip" class="tooltip" style="display: none;"></div>
+        <div id="details-panel" class="details-panel"></div>
+    </div>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="slide2.js"></script>
+</body>
+</html>

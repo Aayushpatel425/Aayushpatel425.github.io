@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real Estate Trends</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="content">
+        <div id="title">
+            <h1>The Rise, Fall, and Future of the Real Estate Market: A Data-Driven Journey</h1>
+        </div>
+        <div id="chart-container">
+            <div id="region-select-container">
+                <label for="region-select">Choose a Region:</label> 
+                <select id="region-select"></select>
+            </div>
+            <div id="chart"></div>
+        </div>
+    
+        <div id="slide-texts">
+            <div id="slide-1-text" class="slide-text">
+                <h2>Historical Price Trends and Market Crashes</h2>
+                <p>Our story begins in the early 2000s, when real estate prices were steadily rising. This trend continued until the onset of the 2008 financial crisis, a major event that caused a dramatic decline in property values across the United States.</p>
+                <p>The line chart illustrates these fluctuations in property values over the decades. You can hover over the points on the line to see exact prices at different times, and select a specific region to view localized data.</p>
+                <p><strong>Source:</strong> <a href="https://www.zillow.com/research/data/">Zillow Research</a></p>
+            </div>
+        </div>
+    
+        <div id="navigation">
+            <button id="prev">Previous</button>
+            <button id="next">Next</button>
+        </div>
+    </div>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
